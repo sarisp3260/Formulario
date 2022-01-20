@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.header
+{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.logo
+{
+    font-size: 1.8rem;
+    color: white;
+}
+.nav-bar a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0 15px;
+}
+.nav-bar a:hover
+{
+    color: blueviolet;
+}
+
+.form-center
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-center h1
+{
+    padding-top: 40px;
+    font-size: 4rem;
+}
+#form, #flabel
+{
+    margin: 15px 0;
+}
+#flabel
+{
+    font-size: 1.2rem;
+}
+#finput
+{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(160, 160, 160);
+    color: white;
+}
+.sumbit
+{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
